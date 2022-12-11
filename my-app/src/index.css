@@ -2,11 +2,9 @@ body{
     padding: 0;
     margin: 0;
   }
-  
   *{
   box-sizing: border-box;
   }
-  
   .header {
     width: 100%;
     margin: 0%;
@@ -15,7 +13,6 @@ body{
     display: flex;
     justify-content: space-around;
   }
-  
   .headertitle {
     font-family: 'Luckiest Guy', cursive;
     color: #FFEEDB;
@@ -35,7 +32,6 @@ body{
     padding: 5px 10px;
     border: 1px solid rgba(0, 8, 7, .5);
   }
-
   button {
     margin-top: 17px;
     padding: 5px 10px;
@@ -44,19 +40,17 @@ body{
     color: #FFEEDB;
     background-color: rgba(0, 8, 7);
   }
-
   button:hover:not(:disabled) {
     opacity: 0.8;
     cursor: pointer;
     transition: all 0.2s linear;
     background-color: #FFEEDB;
     color: rgba(0, 8, 7);
-}
-
+  }
    button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
-}
+  }
   select{
     font-size: large;
     height: 50px;
@@ -64,22 +58,17 @@ body{
     border-radius: 10px;
     width: 200px;
   }
-  
- 
   p{
     padding: 0;
     margin: 0;
     font-size: xx-large;
   }
-  
   .main{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     padding: 10px;
   }
-  
- 
   .search{
     display: flex;
     gap: 20px;
@@ -97,16 +86,13 @@ body{
   .list{
     border: 2px solid black;
   }
-  
   .app-name{
     text-align: center;
   }
-  
   .list-div{
     display: flex;
     flex-direction: column;
   }
-  
   .list-div button{
     width: fit-content;
     margin-top: 20px;
